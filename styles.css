@@ -11,7 +11,7 @@
 }
 
 img {
-    width: 250px;
+    width: 100%;
 }
 
 h1 {
@@ -30,7 +30,7 @@ h3 {
 }
 
 .container-app {
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
 
@@ -41,9 +41,7 @@ h3 {
 }
 
 .section {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 30px
+    padding: 20px 30px;
 }
 
 .border-radius {
@@ -58,6 +56,7 @@ h3 {
 .flex-grow {
     flex-grow: 1;
     border: 1px dashed red;
+    overflow: auto;
 }
 
 .d-flex {
@@ -100,6 +99,15 @@ h3 {
     background-color: var(--bar-color);
     flex-shrink: 0;
     padding: 20px;
+    text-align: end;
+}
+
+.upgrade {
+    padding: 15px 30px;
+    border-radius: 30px;
+    background-color: var(--bar-color);
+    color: white;
+    border-color: white;
 }
 
 .row {
