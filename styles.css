@@ -14,8 +14,19 @@ img {
     width: 250px;
 }
 
-ul {
-    list-style: none;
+h1 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
 }
 
 .container-app {
@@ -37,6 +48,11 @@ ul {
 
 .border-radius {
     border-radius: 50%;
+}
+
+.subtitle {
+    padding-bottom: 30px;
+    color: gray;
 }
 
 .flex-grow {
