@@ -4,8 +4,18 @@
     box-sizing: border-box;
 }
 
+:root {
+    --bar-color: #080B12;
+    --bg-album-color: #131922;
+    --play-bar-color: #282828;
+}
+
 img {
     width: 250px;
+}
+
+ul {
+    list-style: none;
 }
 
 .container-app {
@@ -15,7 +25,17 @@ img {
 
     /*debug*/
     border: 1px dashed red;
-    background-color: aqua;
+    background-color: var(--bg-album-color);
+    color: white;
+}
+
+.section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.border-radius {
+    border-radius: 50%;
 }
 
 .flex-grow {
@@ -31,15 +51,27 @@ img {
     flex-shrink: 0;
     width: 250px;
     /*debug*/
-    background-color: lightgreen;
+    background-color: var(--bar-color);
     border: 1px dashed blue;
+    color: white;
 }
 
-.play-container {
+.icon-sidebar {
+    width: 40%;
+}
+
+.logo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 80%;
+    
+}
+
+.player-container {
     flex-shrink: 0;
     padding: 10px 0;
     /*debug*/
-    background-color: rgb(144, 192, 238);
+    background-color: var(--play-bar-color);
     border: 1px dashed rgb(0, 0, 0);
 }
 
@@ -48,6 +80,7 @@ img {
 }
 
 .top-bar {
+    background-color: var(--bar-color);
     flex-shrink: 0;
     padding: 20px;
 }
