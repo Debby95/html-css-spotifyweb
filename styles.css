@@ -119,6 +119,7 @@ h3 {
 .row {
     display: flex;
     flex-direction: row;
+    gap: 10px;
 }
 
 .col {
