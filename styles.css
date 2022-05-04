@@ -12,6 +12,8 @@ body {
     --bar-color: #080B12;
     --bg-album-color: #131922;
     --play-bar-color: #282828;
+    --text-link-and-subtitle-color: #54585E;
+    --white-color: #F3F3F4;
 }
 
 img {
@@ -35,6 +37,11 @@ h3 {
     font-size: 15px;
 }
 
+a {
+    text-decoration: none;
+    color: var(--text-link-and-subtitle-color);
+}
+
 .container-app {
     height: 100vh;
     display: flex;
@@ -43,7 +50,7 @@ h3 {
     /*debug*/
     border: 1px dashed red;
     background-color: var(--bg-album-color);
-    color: white;
+    color: var(--white-color)
 }
 
 .section {
@@ -56,7 +63,7 @@ h3 {
 
 .subtitle {
     padding-bottom: 30px;
-    color: gray;
+    color: var(--text-link-and-subtitle-color)
 }
 
 .flex-grow {
@@ -75,7 +82,7 @@ h3 {
     /*debug*/
     background-color: var(--bar-color);
     border: 1px dashed blue;
-    color: white;
+    color: var(--white-color))
 }
 
 .icon-sidebar {
@@ -108,12 +115,20 @@ h3 {
     text-align: end;
 }
 
+.link {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    
+
+}
+
 .upgrade {
     padding: 15px 30px;
     border-radius: 30px;
     background-color: var(--bar-color);
-    color: white;
-    border-color: white;
+    color: var(--white-color);
+    border-color: var(--white-color);
 }
 
 .row {
