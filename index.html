@@ -11,7 +11,7 @@
 <body>
 
     <!-- container with 100vh -->
-    <div class="container-app">
+    <div class="container-app d-flex">
         
         <!-- grow align items stretch -->
         <div class="flex-grow d-flex">
@@ -24,27 +24,75 @@
                     <img src="img/logo.svg" alt="">
                 </div>
 
-                <div class="icon-sidebar text-align">
+                <div class="icon-sidebar bold">
                     <ul>    
                         <li>
-                            <img class="icon-sidebar" src="img/home.svg" alt="">
-                            <span>Home</span>
+                            <a href=""><img class="icon-sidebar" src="img/home.svg" alt=""><span class="v-align">Home</span></a>
                         </li>
+
                         <li>
-                            <img class="icon-sidebar" src="img/search.svg" alt="">
-                            <span>Cerca</span>
+                            <a href=""><img class="icon-sidebar" src="img/search.svg" alt=""><span class="v-align">Cerca</span></a>
                         </li>
+
                         <li>
-                            <img class="icon-sidebar" src="img/libreria.svg" alt="">
-                            <span>La tua libreria</span>
+                            <a href=""><img class="icon-sidebar" src="img/libreria.svg" alt=""><span class="v-align">Liberia</span></a>
                         </li>
                     </ul>
                 </div>
 
-                <div class="flex-grow">
+                <div class="flex-grow d-flex column">
                     <div class="playlist-container">
                         <h2>PLAYLIST</h2>
                     </div>
+
+                    <div class="create-new-playlist flex-grow overflow-hidden bold">
+                        <a href=""></a>
+                        <a href="">
+                            <svg class="icon-add-playlist" xmlns="http://www.w3.org/2000/svg" fill="grey" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M384 32C419.3 32 448 60.65 448 96V416C448 451.3 419.3 480 384 480H64C28.65 480 0 451.3 0 416V96C0 60.65 28.65 32 64 32H384zM224 368C237.3 368 248 357.3 248 344V280H312C325.3 280 336 269.3 336 256C336 242.7 325.3 232 312 232H248V168C248 154.7 237.3 144 224 144C210.7 144 200 154.7 200 168V232H136C122.7 232 112 242.7 112 256C112 269.3 122.7 280 136 280H200V344C200 357.3 210.7 368 224 368z"/></svg>
+                            <span class="v-align">Crea Playlist</span>
+                        </a>
+                    </div>
+
+                    <div class="new-playlist bold">
+                        <ul>
+                            <li class="padding">
+                                <a href="">Nuova Playlist</a>
+                            </li>
+
+                            <li class="padding">
+                                <a href="">Nuova Playlist</a>
+                            </li>
+
+                            <li class="padding">
+                                <a href="">Nuova Playlist</a>
+                            </li>
+
+                            <li class="padding">
+                                <a href="">Nuova Playlist</a>
+                            </li>
+
+                            <li class="padding">
+                                <a href="">Nuova Playlist</a>
+                            </li>
+
+                            <li class="padding">
+                                <a href="">Nuova Playlist</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    
+                </div>
+
+                <div class="user bold">
+                    <a href=""><img class="icon-download" src="img/download.svg" alt=""><span class="v-align"> Installa App</span></a>
+                    
+                    <div class="hr"></div>
+                    
+                    <div class="profile">
+                        <a href=""><img class="icon-profile" src="img/profile.svg" alt=""></a>
+                    </div>
+                    
                 </div>
 
             </div>
@@ -59,7 +107,7 @@
 
                 <!-- vertical contain with flex-grow -->
                 <div class="flex-grow overflow-auto">
-                    <div class="link">
+                    <div class="link bold">
                         <a href="">IN EVIDENZA</a>
                         <a href="">PODCAST</a>
                         <a href="">CLASSIFICHE</a>
@@ -71,7 +119,7 @@
                     <!-- recently player section -->
                     <div class="section">
                         <h1>Recently played</h1>
-                        <div class="row">
+                        <div class="row d-flex">
                             
                             <div class="col">
                                 <!-- cover  -->
@@ -193,7 +241,7 @@
                     <div class="section">
                         <h1>Creato per John Doe</h1>
                         <div class="subtitle">Più ascolti, più accurati saranno i suggerimenti</div>
-                        <div class="row">
+                        <div class="row d-flex">
                             <div class="col">
                                 <!-- cover  -->
                                 <div class="album">
@@ -228,7 +276,7 @@
                     <div class="section">
                         <h1>Artisti più popolari</h1>
                         <div class="subtitle">Più ascolti, più accurati saranno i suggerimenti</div>
-                        <div class="row">
+                        <div class="row d-flex">
                             <div class="col">
                                 <!-- cover -->
                                 <div class="album">
