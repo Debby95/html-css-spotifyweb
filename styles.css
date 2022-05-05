@@ -153,6 +153,28 @@ ul {
     /*debug*/
     background-color: var(--play-bar-color);
     border: 1px dashed rgb(0, 0, 0);
+    height: 100px;
+}
+
+.row-p-container {
+    flex-direction: row;
+}
+
+.col-p-container {
+    flex-basis: calc(100% / 3);
+    border: 1px dashed rgb(54, 199, 163);
+    height: 80px;
+}
+
+.col-cover-container {
+    flex-basis: calc(100% / 3);
+    border: 1px dashed violet;
+    height: 70px;
+}
+
+.cover-img {
+    width: 50%;
+    height: 100%;
 }
 
 .overflow-auto {
@@ -188,7 +210,6 @@ ul {
 .col {
     flex-basis: calc(100% / 6);    
     border: 1px dashed red;
-    gap: 10px;
 }
 
 
