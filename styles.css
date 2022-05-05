@@ -162,19 +162,27 @@ ul {
 
 .col-p-container {
     flex-basis: calc(100% / 3);
-    border: 1px dashed rgb(54, 199, 163);
-    height: 80px;
+    border: 1px dashed rgb(54, 199, 163);   
 }
 
 .col-cover-container {
     flex-basis: calc(100% / 3);
-    border: 1px dashed violet;
-    height: 70px;
+    border: 1px dashed violet;    
 }
 
 .cover-img {
-    width: 50%;
-    height: 100%;
+    max-width: 50%;
+    max-height: 100%;
+}
+
+.row-col-icons {
+    flex-direction: row;
+}
+
+.col-icons {
+    flex-basis: calc(100% / 2);
+    border: 1px dashed blue;
+    width: 30px;
 }
 
 .overflow-auto {
