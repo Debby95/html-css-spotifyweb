@@ -181,8 +181,12 @@ ul {
 
 .col-icons {
     flex-basis: calc(100% / 2);
-    border: 1px dashed blue;
-    width: 30px;
+    border: 1px dashed blue;    
+}
+
+.icon {
+    width: 30%;
+    padding-top: 30px;
 }
 
 .overflow-auto {
